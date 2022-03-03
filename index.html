@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gabi's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Poly" />
+    <link rel="stylesheet"  href="styles/main.css">
+    <script>
+        function sendMail() {
+            window.location.href = "mailto:gabriela.gavrilova@yahoo.com" + "?subject=" + escape("Hi :)");
+        }
+    </script>
+</head>
+<body>
+<section id="home-section" class="hero">
+    <div id="graybox"></div>
+    <div class="home-slider  owl-carousel">
+        <div class="slider-item ">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+
+                    <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+                        <div id="text">
+                            <h1 id="about">hello, <span> gabi</span> here.</h1> <div id="blink"></div>
+                            <p id="subheading">I'm a software engineering student. I have profound interest
+							in game and web development,machine learning, artificial intelligence,
+							and everything in between.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <button onclick="sendMail()">Say hello</button>
+</section>
+<section id="aboutme">
+    <div id="aboutheader">
+        <h3>/ about me</h3>
+        <div id="headerline"></div>
+    </div>
+    <div id="abouttext">
+        I am currently studying Computer Science at the Faculty of Computer Science & Engineering in Skopje,
+        with a focus in Software Engineering and Information Systems.
+        <br/><br/>
+        I'm into any sort of software development that requires creativity. My other areas of interest include AI,
+        game development, VR and frontend development. I also like my fair share of graphic design and
+        video editing. In my free time, I play video games and work towards developing my own.
+        <br/><br/>
+        Here are some technologies I have been working with:
+        <div id="lists">
+            <ul>
+                <li>Javascript ES6+</li>
+                <li>Vue.js</li>
+                <li> C++/C/C#</li>
+            </ul>
+            <ul>
+                <li>Java</li>
+                <li>Node.js</li>
+                <li>HTML & CSS</li>
+            </ul>
+        </div>
+
+    </div>
+    <div>
+        <img src="assets/me.jpg" id="me">
+    </div>
+</section>
+<section id="skils">
+    <div id="skillsheader">
+        <h3>/ skills</h3>
+        <div id="skillsline"></div>
+    </div>
+    <div id="skillstext">
+        So far, I’ve only done projects to improve my skills or team projects for college.
+        <br/><br/>
+        I create mostly  websites that are fast, easy to use, and built with best practices.
+        The main area of my expertise is front-end development, HTML, CSS, JS,
+        building small and medium web apps, animations, and game development with C#.
+        <br/><br/>
+
+
+    </div>
+    <canvas id="canvas"></canvas>
+</section>
+<section id="projects">
+    <div id="projectsheader">
+        <h3>/ projects</h3>
+        <div id="projectsline"></div>
+    </div>
+    <div>
+        <div id="ball1"></div>
+        <div id="ball2"></div>
+        <div id="ball3"></div>
+        <div id="ball4"></div>
+        <div id="ball5"></div>
+        <div id="ball6"></div>
+    </div>
+    <div id="glassmorphism">
+        <div id="project1">
+            <h3>Valentine's day popup</h3>
+            <p>A program in java made as a recreation of a popular TikTok trend that was going around for
+            valentine's day</p>
+            <a href="https://github.com/gabs0904/Java-PopUpMessage"><img src="assets/PNG/GitHub-Mark-120px-plus.png"></a>
+        </div>
+        <div id="project2">
+            <h3>Responsive Pomodoro Timer</h3>
+            <p>A 25 minute pomodoro timer focused on responsive design that includes displays like Surface Duo and Ipad Mini</p>
+            <a href="https://github.com/gabs0904/Responsive_Pomodoro_Timer"><img src="assets/PNG/GitHub-Mark-120px-plus.png"></a>
+        </div>
+        <div id="project3">
+            <h3>3D Monster Model</h3>
+            <p>A 3D model made for a game development college project. The game is educational and
+                teaches kids about ecology.</p>
+
+            <a href="https://www.behance.net/gallery/124023315/Paper-Bag-Monster-3D"><img src="assets/PNG/free-behance-icon-2161-thumb.png"></a>
+        </div>
+        <div id="project4">
+            <h3>Web App UI</h3>
+            <p>UI for a secure evoting web app made as a college project.</p>
+
+            <a href="https://www.behance.net/gallery/138618107/Landing-Page?"><img src="assets/PNG/free-behance-icon-2161-thumb.png"></a>
+
+        </div>
+    </div>
+</section>
+
+<script src="script/ball.js"></script>
+</body>
+</html>
