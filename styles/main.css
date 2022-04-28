@@ -413,3 +413,18 @@ a img{
 button:hover{
     cursor: pointer;
 }
+.container #links {
+    position: absolute;
+    left:1150px;
+    top:15px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 36px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: #6D6D6D;
+}
